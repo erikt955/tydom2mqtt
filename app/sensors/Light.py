@@ -51,7 +51,7 @@ class Light:
                 id=self.id),
             'json_attributes_topic': light_attributes_topic.format(
                 id=self.id),
-            'payload_off: "OFF",
+            'payload_off': "OFF",
             'payload_on': "ON",
             'on_command_type': "brightness",
             'retain': 'false',
